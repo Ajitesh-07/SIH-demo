@@ -1,6 +1,6 @@
 "use client";
 
-import { APIProvider, Map, MapCameraChangedEvent, AdvancedMarker, Pin, InfoWindow, useMap } from "@vis.gl/react-google-maps";
+import { APIProvider, Map, AdvancedMarker, Pin, InfoWindow, useMap } from "@vis.gl/react-google-maps";
 import { useState, useEffect } from "react";
 import CONSTANTS from "./constants";
 
@@ -129,11 +129,11 @@ export default function Home() {
              <h3 className="text-md font-bold text-gray-700 border-b pb-2 mb-3">Recent Reports</h3>
              <div className="space-y-3">
                 <div className="bg-gray-50 p-3 rounded-lg text-sm">
-                    <p className="text-gray-700">"The pile of trash near the corner store has doubled in size. It's becoming a health hazard."</p>
+                    <p className="text-gray-700">The pile of trash near the corner store has doubled in size. It is becoming a health hazard.</p>
                     <p className="text-xs text-gray-500 text-right mt-1">- R. Sharma, 15 mins ago</p>
                 </div>
                  <div className="bg-gray-50 p-3 rounded-lg text-sm">
-                    <p className="text-gray-700">"Can't use the footpath at all. Completely blocked by garbage bags."</p>
+                    <p className="text-gray-700">Cannot use the footpath at all. Completely blocked by garbage bags.</p>
                     <p className="text-xs text-gray-500 text-right mt-1">- A. Verma, 28 mins ago</p>
                 </div>
              </div>
